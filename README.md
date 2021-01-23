@@ -24,6 +24,13 @@
 
 ## T-Tests on Suspension Coils
 
+![deliverable3](resources/deliverable3.PNG?raw=true "Title")
+
+Based on the image of the t-tests above, it can be determined using the p-values and an assumed common significance level of 0.05 percent that:
+1. All manufacturing lots are statistically different from the population mean of 1500 pounds per square inch. The p-value of this dataset is: 0.03.
+2. Lots 1 and 2 are not statistically different from the population mean of 1500 pounds per square inch. Lot 1's p-value is: 1 while Lot 2's p-value is: 0.61.
+3. Lot 3 is statistically different from the population mean of 1500 pounds per square inch. Lot 3's p-value is 0.04.
+
 
 
 ## Study Design: MechaCar vs Competition
