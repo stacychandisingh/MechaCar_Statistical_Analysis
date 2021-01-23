@@ -37,7 +37,7 @@ Based on the image of the t-tests above, it can be determined using the p-values
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
- A short description of a statistical study that can quantify how the MechaCar performs against the competition is to use the correlation function in R.
+A short description of a statistical study that can quantify how the MechaCar performs against the competition is to use the correlation function in R.
  
 What metric or metrics are you going to test?
 Use vehicle length data and mpg (miles per gallon) data for MechaCar and other manufacturers to determine the correlation between the two variables. This could assist in making decisions about how much material is used to make a car's length and if it is feasible for the customer to fuel depending on how much vehicle length affects mpg. 
