@@ -5,13 +5,16 @@
 ![1](resources/image1.PNG?raw=true "Title")
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
 According to the results, vehicle_length, ground_clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model.
 
 - Is the slope of the linear model considered to be zero? Why or why not?
+
 The slope of the linear model is not considered to be zero. This is because the p-value is 5.35e-11. 
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-This linear model predicts mpg of MechaCar prototypes effectively although when an intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in the model. These variables may or may not be within the dataset and may still need to be collected or observed. 
+
+This linear model predicts mpg of MechaCar prototypes effectively although when an intercept is statistically significant as seen in the image, it means there are other variables and factors that contribute to the variation in mpg that have not been included in the model. These variables may or may not be within the dataset and may still need to be collected or observed. According to the summary output, the R-squared value is 0.7149 in the multiple linear regression model while the p-value remained significant.
 
 
 ## Summary Statistics on Suspension Coils
