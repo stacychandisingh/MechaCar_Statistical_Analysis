@@ -3,13 +3,13 @@
 library(tidyverse)
 library(dplyr) #Load dplyr package
 
-mechacar_data <- read.csv("C:/Users/schan/OneDrive/R_Analysis/01_Demo/MechaCar_mpg.csv") #read in dataset
+mechacar_data <- read.csv("C:/Users/schan/OneDrive/R_Analysis/01_Demo/MechaCar_mpg.csv", stringsAsFactors = F) #read in dataset
 
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mechacar_data) #generate multiple linear regression model
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mechacar_data)) #generate summary statistics
 
 #Deliverable 2
-suspension_coil <- read.csv("C:/Users/schan/OneDrive/R_Analysis/01_Demo/Suspension_Coil.csv") #read in dataset
+suspension_coil <- read.csv("C:/Users/schan/OneDrive/R_Analysis/01_Demo/Suspension_Coil.csv",stringsAsFactors = F) #read in dataset
 
 
 #summary statistics for PSI column
@@ -43,4 +43,3 @@ t.test(subset(suspension_coil,Manufacturing_Lot=="Lot2")$PSI,mu = 1500)
 
 #t.test for Manufacturing Lot 3
 t.test(subset(suspension_coil,Manufacturing_Lot=="Lot3")$PSI,mu = 1500)
-
