@@ -25,10 +25,15 @@ This linear model predicts mpg of MechaCar prototypes effectively although when 
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-The current manufacturing data meets/does not meet this design specification for all manufacturing lots in total based on the high/low variance.
-The current manufacturing data meets/does not meet this design specification for Manufacturing Lot 1 based on the high/low variance.
-The current manufacturing data meets/does not meet this design specification for Manufacturing Lot 2 based on the high/low variance.
-The current manufacturing data meets/does not meet this design specification for Manufacturing Lot 3 based on the high/low variance.
+The current manufacturing data does **not meet** this design specification for all manufacturing lots in total based on the relatively high standard deviation value of 7.89 when compared to the low SD values of individual Lots 1 and 2 in addition to both Lots 1 and 2 having a mean of 1500.00 and 1500.20, respectively.
+
+The current manufacturing data **meets** this design specification for Manufacturing Lot 1 based on the low standard deviation value of 0.99 when compared to the standard deviation of the entire dataset (all lots).
+
+The current manufacturing data **meets** this design specification for Manufacturing Lot 2 based on the low standard deviation value of 2.73 when compared to the standard deviation of the entire dataset (all lots).
+
+The current manufacturing data does **not meet** this design specification for Manufacturing Lot 3 based on the high standard deviation value of 13.05 when compared to the standard deviation of the entire dataset (all lots).
+
+A smaller SD represents data where the results are very close in value to the mean. The larger the SD the more variance in the results.
 
 
 ## T-Tests on Suspension Coils
