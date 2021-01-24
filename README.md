@@ -49,7 +49,7 @@ Based on the image of the t-tests above, it can be determined using the p-values
 
 ## Study Design: MechaCar vs Competition
 
-**A short description of a statistical study** that can quantify how the MechaCar performs against the competition is an analysis of vehicle length versus mpg. This would assist in making decisions about how much material is used to make up a car's length and if it is feasible for the customer to fuel the vehicle depending on how much vehicle length affects mpg.
+**A short description of a statistical study** that can quantify how the MechaCar performs against the competition is an analysis of vehicle length versus mpg. This would assist in making decisions about the cost and how much material is used to make up a car's length and if it is feasible for the customer to fuel the vehicle depending on how much vehicle length affects mpg.
 
 **What metric or metrics are you going to test?**
 Use vehicle length data and mpg (miles per gallon) data for MechaCar and other manufacturers to determine the correlation between the two variables. 
