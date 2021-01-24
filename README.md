@@ -62,7 +62,7 @@ The alternative hypothesis: there is a correlation between the vehicle length an
 The statistical test that would be used is the correlation function in R. This function is denoted as cor() in R.
 
 **What data is needed to run the statistical test?**
-The data needed to run the statistical test is the mpg and vehicle length data for MechaCar and the competition. Depending on how large the dataset is, a sample of the population dataset should be taken. This can be achieved using a sample function in R such as sample_n().
+The data needed to run the statistical test is the mpg and vehicle length data for MechaCar and the competition. Depending on how large the dataset is, a sample of the population dataset should be taken. This can be achieved by using a sample function in R such as sample_n().
 
 
 
