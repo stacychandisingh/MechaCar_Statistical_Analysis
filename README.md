@@ -59,7 +59,7 @@ The null hypothesis is: there is no correlation between the vehicle length and m
 The alternative hypothesis: there is a correlation between the vehicle length and mpg variables; either a negative or a positive correlation.
 
 **What statistical test would you use to test the hypothesis? And why?**
-The statistical test that would be used is the correlation function in R. This function is denoted as cor() in R.
+The statistical test that would be used is either the t-test or ANOVA.
 
 **What data is needed to run the statistical test?**
 The data needed to run the statistical test is the mpg and vehicle length data for MechaCar and the competition. Depending on how large the dataset is, a sample of the population dataset should be taken. This can be achieved by using a sample function in R such as sample_n().
